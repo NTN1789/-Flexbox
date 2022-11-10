@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>CSS</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSS FlexBox <span class="highlight">justify-content</span> Propriedade explicada na  1 animação</h1>
+      <p> o justify-content no  CSS  é uma propriedade controla como o navegador distribui o espaço entre e ao redor de diferentes elementos no eixo principal de um contêiner flexível .</p>
+      <p>See all <span class="highlight">justify-content</span> exemplos abaixo:</p>
+      <div class="child-container">
+        <div class="grandchildren">
+          <h3>Stretch</h3>
+          <div class="flexbox animation stretch">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+        <div class="grandchildren">
+          <h3>Space between</h3>
+          <div class="flexbox animation space-between">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+        <div class="grandchildren">
+          <h3>Space-around</h3>
+          <div class="flexbox animation space-around">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+        <div class="grandchildren">
+          <h3>Space-evenly</h3>
+          <div class="flexbox animation space-evenly">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+        <div class="grandchildren">
+          <h3>center</h3>
+          <div class="flexbox animation center">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+        <div class="grandchildren">
+          <h3>Flex-start</h3>
+          <div class="flexbox animation flex-start">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+        <div class="grandchildren">
+          <h3>Flex-end</h3>
+          <div class="flexbox animation flex-end">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button  class="btn">Parar Animação</button>
+      </div>
+
+    </div>
+    <div>
+      <ul>
+        <li>stretch:Ele estica os itens flexíveis para ocupar o espaço restante </li>
+        <li>space-between:Os itens terão espaço entre eles.</li>
+        <li> space-around: Os itens terão espaço antes, entre e depois deles.</li>
+        <li>space-evenly:Os itens terão espaço igual ao redor deles.</li>
+        <li>center: Os itens são posicionados no centro do contêiner.</li>
+        <li>flex-start:Valor padrão. Os itens são posicionados no início do contêiner.</li>
+        <li>flex-end: Os itens são posicionados no final do contêiner.</li>
+      </ul>
+
+    </div>
+    
+  </body>
+</html>

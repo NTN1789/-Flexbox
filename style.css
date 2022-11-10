@@ -1,0 +1,113 @@
+.container {
+    text-align: center;
+}
+
+.container p {
+    font-size: 1rem;
+}
+
+.highlight {
+    background-color: pink;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: purple;
+    font-weight: bold;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.grandchildren {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grandchildren> h3{
+    width: 5rem;
+}
+
+.flexbox {
+    display: flex;
+    background-color: rgb(162, 60, 240);
+    border-radius: .5rem;
+    width: 40rem;
+}
+.animation{
+    animation: width 5s infinite ;
+    
+}
+
+.flex-item {
+    margin: .5rem;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    background-color:yellowgreen;
+}
+
+.stretch {
+    justify-content: stretch;
+}
+.stretch .flex-item {
+    flex: 1;
+
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.center {
+    justify-content: center;
+    
+}
+
+.flex-start{
+    justify-content: flex-start;
+    
+}
+
+.flex-end {
+    justify-content: flex-end;
+
+}
+
+.btn {
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    background-color: antiquewhite;
+    cursor: pointer;
+    transition: all 100ms ease-in;
+}
+
+.btn:hover{
+    scale: 1.1;
+    background-color: rgb(243, 215, 178);
+}
+
+
+@keyframes width {
+    0% {
+        width: 40rem;
+    }
+    50% {
+        width: 11rem
+    }
+    100%{
+        width: 40rem;
+    }
+
+  }
